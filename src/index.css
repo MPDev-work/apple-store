@@ -1,0 +1,8 @@
+@import 'tailwindcss';
+
+body {
+  /* font-family: 'Bebas Neue', sans-serif; */
+  font-family: sans-serif;
+  scrollbar-width: thin;
+  scroll-behavior: smooth;
+}
