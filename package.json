@@ -1,7 +1,6 @@
 {
   "name": "apple-store",
   "homepage": "https://mpdev-work.github.io/apple-store/",
-  "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
