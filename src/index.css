@@ -4,11 +4,9 @@ html,
 body {
   scrollbar-width: thin;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
   font-family: 'Inter', 'Bebas Neue', sans-serif;
-  font-family: sans-serif;
-
-  overflow-x: hidden;
 }

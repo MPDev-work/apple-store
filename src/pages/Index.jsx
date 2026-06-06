@@ -3,6 +3,8 @@ import WWDCimg from '../img/wwdc.jpg';
 import Iphone17Pro from '../img/hero_iphone_17_pro__bknyzxfk2agi_large.jpg';
 import iPhone17 from '../img/iphonefamily.jpg';
 import Iphoneair from '../img/hero_iphone_air__0gxyavihpiqu_large.jpg';
+import iPadair from '../img/promo_ipad_air_avail__6i02t7nujr62_small.jpg';
+import iPadairLogo from '../img/promo_logo_ipad_air__dqdj4ni03quu_large_2x.png';
 import LearnmoreLG from '../components/LearnmoreLG.jsx';
 import BuyLg from '../components/BuyLg.jsx';
 
@@ -99,6 +101,23 @@ function IphoneAir() {
     </>
   );
 }
+function ApplePromo() {
+  return (
+    <>
+      <section className="w-[100vw] h-max grid grid-cols-2 gap-2.5 overflow-hidden">
+        <div className="relative h-[580px] flex justify-center items-center pl-2.5">
+          <img className="w-auto h-full object-cover" src={iPadair} />
+          <div className="absolute top-3.5 flex flex-row justify-center items-center">
+            <img className="w-200px h-auto" src={iPadairLogo} />
+          </div>
+        </div>
+        <div className="relative h-[580px] flex justify-center items-center pr-2.5">
+          <img className="w-full h-full object-cover" src={iPadair} />
+        </div>
+      </section>
+    </>
+  );
+}
 function Index() {
   return (
     <>
@@ -107,6 +126,7 @@ function Index() {
       <Iphon17pro />
       <Iphone17 />
       <IphoneAir />
+      <ApplePromo />
     </>
   );
 }
